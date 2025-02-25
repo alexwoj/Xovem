@@ -36,3 +36,16 @@ valor_imposto = valor_bruto * taxa_importacao
 # Subtrai: 3 - 2
 
 
+ # 1)
+valor_total_da_compra = quantidade_comprada * valor_produto
+print(valor_total_da_compra)
+
+
+# 2)
+valor_total_da_compra_liquido = (valor_total_da_compra * taxa_importacao) + valor_total_da_compra
+print(valor_total_da_compra_liquido)
+
+# 3)
+compra_com_desconto = valor_total_da_compra_liquido - taxa_desconto
+print(compra_com_desconto)
+
