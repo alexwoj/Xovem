@@ -27,7 +27,10 @@ valor_imposto = valor_bruto * taxa_importacao
 # if, else,
 
 produtos = {'654'   : 'Produto 1',
-            '648'   : 'Produto 2'}
+            '648'   : 'Produto 2'
+            }
+
+valor_produtos = {'654': 1000}
 
 user_input = input("Coloque código do produto: ")
 print(user_input)
