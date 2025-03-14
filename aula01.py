@@ -8,7 +8,7 @@ quantidade_comprada = 10
 valor_produto = 100
 
 # nome do produto
-nome_produto = 'Vibrador 1000 RPM para velha gorda'
+nome_produto = 'Produto Legal'
 
 # valor bruto
 valor_bruto = quantidade_comprada * valor_produto
@@ -18,6 +18,32 @@ taxa_desconto = 0.8
 
 # valor do imposto
 valor_imposto = valor_bruto * taxa_importacao
+
+# Estudar
+#
+# listas
+# dicionários
+#
+# if, else,
+
+produtos = {'654'   : 'Produto 1',
+            '648'   : 'Produto 2'}
+
+user_input = input("Coloque código do produto: ")
+print(user_input)
+
+print(produtos.get(user_input))
+
+
+
+
+
+
+
+
+
+
+
 
 # Desafio:
 #
@@ -35,17 +61,17 @@ valor_imposto = valor_bruto * taxa_importacao
 # Soma: 1 + 1
 # Subtrai: 3 - 2
 
-
- # 1)
-valor_total_da_compra = quantidade_comprada * valor_produto
-print(valor_total_da_compra)
-
-
-# 2)
-valor_total_da_compra_liquido = (valor_total_da_compra * taxa_importacao) + valor_total_da_compra
-print(valor_total_da_compra_liquido)
-
-# 3)
-compra_com_desconto = valor_total_da_compra_liquido - taxa_desconto
-print(compra_com_desconto)
-
+#
+#  # 1)
+# valor_total_da_compra = quantidade_comprada * valor_produto
+# print(valor_total_da_compra)
+#
+#
+# # 2)
+# valor_total_da_compra_liquido = (valor_total_da_compra * taxa_importacao) + valor_total_da_compra
+# print(valor_total_da_compra_liquido)
+#
+# # 3)
+# compra_com_desconto = valor_total_da_compra_liquido - taxa_desconto
+# print(compra_com_desconto)
+#
